@@ -5,7 +5,7 @@
         "pagingType": "full_numbers",
         processing: true,
         serverSide: true,
-        ajax: 'http://adesc.com/public/admin/products/get',
+        ajax: 'https://63e36d26.ngrok.io/admin/products/get',
         columns: [
             {
                 data: 'image', 

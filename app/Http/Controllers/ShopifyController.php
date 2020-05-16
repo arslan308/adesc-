@@ -21,8 +21,8 @@ class ShopifyController extends Controller
             $apiKey         = 'fb61431549ababa9500e38d296f326ad';
             $shopDomain     = $request->input('shop'); 
             $scopes         = ['write_orders', 'write_products', 'write_themes', 'write_script_tags', 'write_content'];
-            $redirectionUri = 'http://adesc.com/authenticate'; 
-            $nonce          = 'strong_nonce';
+            $redirectionUri = 'https://adesc.taajmart.com/authenticate'; 
+            $nonce          = 'strong_nonce'; 
 
             $response = new AuthorizationRedirectResponse($apiKey, $shopDomain, $scopes, $redirectionUri, $nonce);
             return redirect($response->getHeader('location')[0]);
