@@ -1,0 +1,16 @@
+@font-face {
+font-family: Roboto-Light;
+src: url('/fonts/Roboto-Light.ttf');
+}
+body, * {
+font-family: Roboto-Light;
+}
+#productstable{
+border-collapse: collapse;
+}
+.content-wrapper{
+padding: 10px 0px 65px 0px;
+}
+td, th {
+border: .1px solid #e7eef5  !important;
+}
